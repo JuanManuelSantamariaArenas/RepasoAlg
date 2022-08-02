@@ -1,6 +1,6 @@
-#REPASO DE CLASE
-
+"""REPASO DE CLASE"""
 def repaso_1():
+
     import random
 
     print("Punto #1")
@@ -30,6 +30,10 @@ def repaso_1():
 
     print("Punto #6")
 
+
     print("Punto #12")
+    frase: str = input("Ingrese una frase: ")
+    npalabras: list[str] = frase.split(" ")
+    print(f"La frase {frase} tiene {len(npalabras)} palabras")
 
 repaso_1()
